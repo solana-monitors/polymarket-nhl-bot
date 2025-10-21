@@ -1,0 +1,26 @@
+{
+  "name": "polymarket-nhl-bot",
+  "version": "1.0.0",
+  "description": "Live betting bot for NHL games using Polymarket and BoltOdds",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node src/test.js",
+    "test:components": "node src/test.js"
+  },
+  "keywords": ["polymarket", "nhl", "betting", "odds", "trading"],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "ws": "^8.14.2",
+    "axios": "^1.6.0",
+    "dotenv": "^16.3.1",
+    "winston": "^3.11.0",
+    "joi": "^17.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^20.9.0"
+  }
+}
